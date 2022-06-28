@@ -1,3 +1,6 @@
 $(function () {
-  $(".main_content04-slider").slick();
+  $(".slider").slick({
+    slidesToShow: 3,
+    centerMode: true,
+  });
 });
